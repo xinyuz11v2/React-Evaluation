@@ -33,8 +33,8 @@ When you are done, the hiring team should be able to get your code up and runnin
 
 - git clone your completed code challenge repo and cd into the directory
 - then run -> npm install
-- then run -> npm dev:server
-- then run -> npm dev:client
+- then run -> npm run dev:server
+- then run -> npm run dev:client
 
 ---
 
