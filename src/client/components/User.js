@@ -8,7 +8,7 @@ class User extends React.Component {
           .then(res => res.json())
           .then(
             (result) => {
-                this.setState({result});
+                this.setState({userInfo: result});
               console.log(result);
             }
         )
