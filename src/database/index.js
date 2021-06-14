@@ -22,7 +22,8 @@ const getUsers = () => {
 const getHobbies = () => {
   const dataAccessMethod = () => {
     // fill me in :) should return an array of hobbies without duplicate value.
-    return ['this is a hobby', 'this is another hobby'];
+    const allHobbies = _.map(db.hobbiesOfUserByUsername, (hobbies) => (hobbies))
+    return _.uniq(allHobbies.flat());
   };
   return mockDBCall(dataAccessMethod);
 };
